@@ -1,86 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio</title>
-    <style>
-        h1 {
-            font-family: 'Times New Roman', Times, serif;
-
-        }
-
-        h3 {
-            font-family: 'Times New Roman', Times, serif;
-        }
-
-        p {
-            font-family: Verdana;
-        }
-
-        body {
-            background-color: rgb(225, 187, 173);
-        }
-
-        #italico {
-            font-style: italic;
-            font-family: 'Times New Roman', Times, serif;
-        }
-
-        #sublinhado {
-            text-decoration: underline;
-        }
-
-        .tamanhoescrita {
-            font-size: 25px;
-
-        }
-
-        .tamanhoboaouvinte {
-            font-size: 20px;
-        }
-
-        .tamanhocomunicacao {
-            font-size: 20px;
-        }
-
-        li {
-            font-family: 'Times New Roman', Times, serif;
-        }
-    </style>
-</head>
-
-<body>
-    <h1 id="Sobre">Sobre mim</h1>
-    <img src="WhatsApp Image 2021-09-30 at 11.12.01.jpeg" alt="Foto de perfil Carolina" width="300px">
-    <h3>Carolina Ariadne Cubas de Sousa</h3>
-    <p>Seja bem - vindo (a) ao meu Portfólio! Abaixo estão listadas algumas das minhas habilidades,
-        com destaque para a que eu considero particularmente como a melhor.Sou formada em Direito,
-        porém atualmente em transição de carreira para a área de Desenvolvimento Web. Sim, um giro de 360º!
-        Gosto de me encontrar com amigos, visitar museus e exposições no geral, assistir filmes e séries,
-        cantar, jogar no console e fazer atividade física.</p>
-    <p id="italico">Brasileira, São Paulo - SP</p>
-
-    <h1 id="Aptidoes">Habilidades</h1>
-    <ul>
-        <li class="tamanhoescrita"><strong>Escrita</strong></li>
-        <img src="15-3-2019-g-escrita.jpg" width="600px"><br>
-        <li class="tamanhoboaouvinte">Boa ouvinte</li>
-        <img src="ouvinte.jpg" width="600px"><br>
-        <li class="tamanhocomunicacao">Comunicação</li>
-        <img src="Comunicacao_nao_violenta_thumbnail.png" width="600px"><br>
-        <h1 id="Interesses">Blog de Interesse</h1>
-
-    </ul>
-    <a href="https://jovemnerd.com.br/" target="_blank">Jovem Nerd</a>
-    <ul>
-        <h3 id="sublinhado">Sumário</h3>
-        <li><a href="#Sobre">Sobre mim</a></li>
-        <li><a href="#Aptidoes">Habilidades</a></li>
-        <li><a href="#Interesses">Blog de Interesse</a></li>
-    </ul>
-</body>
-
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="toggle" onclick="toggleMenu()"></div>
+    <section class="banner" id="home">
+        <div class="imgSidebar">
+            <img src="/eu.webp">
+        </div>
+      <div class="contentBx">
+        <h5 class="logoText">Meu Portfólio</h5>
+        <div>
+          <h4><span>Olá</span>, eu sou</h4>
+          <h2>Carolina Ariadne</h2>
+          <h4>Front End Web Developer.</h4>
+          <p>Descobri meu apreço por programação após advogar por oito anos. Iniciei um curso de Desenvolvimento de Software em 2021, e posso dizer que apesar de desafiadora, a jornada de aprendizado de hards e softs skills para poder trabalhar na área, tem sido incrível e empolgante.
+              Já realizei alguns projetos ao longo desta jornada, fique à vontade para dar uma espiadinha por aqui 👀
+          </p>
+          <a href="#" class="btn">Sobre mim</a>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
 </html>
